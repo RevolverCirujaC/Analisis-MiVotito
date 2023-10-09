@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="">
+	<title>Mi Voto</title>
+</head>
+
+<body>
+    <div class="container" style="padding:100px;">
+        <div class="row">
+          <div class="col-sm-12" style="border:2px solid gray;">
+            
+            <div class="page-header">
+              <h2 class="specialHead">Elige tu Candidato.</h2>
+              <p class="normalFont">Prueba que eres un Votante Correcto<i class="fas fa-autoprefixer    "></i>.</p>
+            </div>
+            
+            <form action="guardarVoto.php" method="POST">
+            <div class="form-group">
+              <label>Nombre del Votante :</label><br>
+              
+              <input type="text" name="voterName" title="Enter Your Full Name" placeholder="Ingresa tu primer nombre" class="form-control" required/><br>
+  
+              <label>Identificación de correo electrónico registrada del votante :</label><br>
+              <input type="text" name="voterEmail" placeholder="Ingresa tu correo" class="form-control"/><br>
+  
+              <label>Tu número de tarjeta de Votante:</label><br>
+              <input id="id1" type="text" name="voterID" placeholder="Ingresa tu DNI" class="form-control" required/><br>
+              
+              <h3 class="normalFont">Seleccina uno de los siguientes:</h3>
+              <div class="radio">
+                <label for="">
+                  <input type="radio" name="selectedCandidate" value="1"> <strong>Sergio Massa</strong>
+                </label><br>
+  
+                <label for="">
+                  <input type="radio" name="selectedCandidate" value="2"> <strong>Javier Milei</strong> 
+                </label><br>
+                
+                <label for="">
+                  <input type="radio" name="selectedCandidate" value="3"> <strong>Patricia Bullrich</strong>
+                </label><br>
+  
+                <label for="">
+                  <input type="radio" name="selectedCandidate" value="4"> <strong>Miriam Bregman</strong>
+                </label><br>
+                <br>
+                <hr>
+                <button type="submit" name="submit" class="btn btn-primary"><strong>Enviar</strong></button>
+                <button type="submit" class="btn btn-default">Declinar</button>
+              </div>
+            </div>
+            </form>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+<header>
+
+
+</header>
+
+
+
+<footer>
+    
+</footer>
+
+</body>
+
+
+
+</html>
+

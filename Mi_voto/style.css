@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-image: url(img/fondo.jfif);
+    background-repeat: no-repeat;
+}
+
+form {
+	padding: 50px 20px;
+	background-color: rgba(0, 25, 247, 0.459);
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+  
+.controls {
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+}
+  
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+  
+
+
+
+header{
+    position: relative;
+    background-color: rgba(57, 76, 250, 0.555);
+    margin-left: auto;
+    padding: 30px;
+
+}
+
+nav{
+    min-height: 72px;
+    
+}
+
+h1{
+    font-family: monospace;
+    font-size: 35px;
+    float: left;
+
+}
+
+h2{
+    font-family: monospace;
+    font-size: 35px;
+    float: right;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
